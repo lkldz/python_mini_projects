@@ -9,7 +9,7 @@ def record_travel(state, travels, places):
     for x in places.split(','):
         list_of_cities.append(x.lstrip())
 
-    travel_log[state] = {"visits": travels, "cities" : list_of_cities}
+    travel_log[state] = {"visits": travels, "cities" : list_of_cities,}
     return travel_log
 
 while True:
